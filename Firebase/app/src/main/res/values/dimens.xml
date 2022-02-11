@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_small_1">4dp</dimen>
+    <dimen name="margin_small_2">8dp</dimen>
+    <dimen name="margin_small_3">10dp</dimen>
+    <dimen name="margin_medium_1">12dp</dimen>
+    <dimen name="margin_medium_2">16dp</dimen>
+    <dimen name="margin_medium_3">20dp</dimen>
+
+    <dimen name="margin_large">32dp</dimen>
+
+
+    <dimen name="text_small">8sp</dimen>
+    <dimen name="text_medium_1">10sp</dimen>
+    <dimen name="text_medium_2">12sp</dimen>
+    <dimen name="text_medium_3">14sp</dimen>
+    <dimen name="text_medium_4">16sp</dimen>
+    <dimen name="text_medium_5">18sp</dimen>
+    <dimen name="text_large_1">20sp</dimen>
+    <dimen name="text_large_2">32sp</dimen>
+</resources>

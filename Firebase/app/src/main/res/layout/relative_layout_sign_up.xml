@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rvMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/ivEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_login_mail_24" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small_2"
+            android:layout_toEndOf="@id/ivEmail"
+            android:background="@color/white"
+            android:padding="@dimen/margin_small_1"
+            android:text="@string/email_login"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_medium_2" />
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_small_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rvMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/do_not_have_an_account"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:foreground="@drawable/bg_ripple_btn"
+            android:layout_marginStart="@dimen/margin_small_1"
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tvSignUp"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorAccent" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Notify</string>
+    <string name="action_settings">Settings</string>
+    //Profile Section
+    <string name="text_name">name</string>
+    <string name="email">email.com</string>
+    <string name="phone">+959 969705428</string>
+    <string name="address">No-750, Pinlon Road, Northdagon</string>
+    <string name="Log_Out">Logout</string>
+
+    //activity title
+    <string name="home_screen">Home</string>
+    <string name="add_note">Add Note</string>
+
+    //Note List activity
+    <string name="note_title">Title</string>
+    <string name="note_brief">GENEVA: Researchers are making "good progress" in developing vaccines against COVID-19, with a handful in late-stage trials, but their first use cannot be expected until early 2021, a World Health Organization (WHO) expert said on Wednesday (Jul 22).</string>
+
+    //Add Note activity
+    <string name="et_brief">Brief</string>
+    <string name="note_save">Save</string>
+
+    //LoginSection
+    <string name="facebook_login">Sign in with Facebook</string>
+    <string name="google_login">Sign in with Google</string>
+    <string name="email_login">Sign in with Email</string>
+    <string name="do_not_have_an_account">Don\'t have an account</string>
+    <string name="sign_up"><u><i>Sign up</i></u>.</string>
+
+</resources>
